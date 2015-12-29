@@ -1,23 +1,23 @@
 {
   "events" : [
     {
-      "content" : "Some text"
-      "createdAt" : new Date(),
+      "content" : "Some text",
+      "createdAt" : "Dec 28 2015 14:00:00",
       "source" : {
-          "type" : "Browser",
+          "type" : "Browser"
       },
       "user" : "shiva"
     },
     {
-      "content" : "Some other text http://shiv.me"
-      "createdAt" : new Date(),
+      "content" : "Some other text http://shiv.me",
+      "createdAt" : "Dec 28 2015 17:23:00",
       "source" : {
         "type" : "twitter.com",
         "source-meta" : {
           "id" : 10912091021,
           "uri" : "http://twitter.com/shiva"
         }
-      }
+      },
       "user" : "shiva"
     }
   ]

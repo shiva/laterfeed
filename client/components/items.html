@@ -1,0 +1,7 @@
+<template name="item">
+  <div class="item" data-id="{{ _id }}">
+      <div class="item-content">{{ content.text }}</div>
+      <div class="item-date">{{ createdAt }}</div>
+      <a class="item-source" href="{{ source.uri }}">{{ source.type }}</a>
+  </div>
+</template>

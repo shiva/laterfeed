@@ -2,34 +2,35 @@
   "items" : [
     {
       "comment" : "locally cached, twitter favourite",
-      "content" : {
+      "content" :
+      {
         "type" : "image",
         "uri_type" : "file",
         "uri" : "/path/to/image",
-        "text" : "Incredible: The entire Harry Potter story in one, comic strip-poster. [Hi-res here]",
+        "text" : "Incredible: The entire Harry Potter story in one, comic strip-poster. [Hi-res here]"
       },
-      "receivedAt" : new Date(),
-      "createdAt" : new Date(),
+      "receivedAt" : "Dec 28 2015 17:15:00",
+      "createdAt" : "Dec 28 2015 17:23:00",
       "source" : {
           "user" : "NigelBritto",
-          "createdAt" : new Date("Sep 8 2014 2:22:00"),
+          "createdAt" : "Sep 8 2014 2:22:00",
           "type" : "twitter.com",
           "uri" : "https://twitter.com/NigelBritto/status/508908166784884737"
       }
     },
     {
-      "comment" : "twitter favourite, link to a blog post"
+      "comment" : "twitter favourite, link to a blog post",
       "content" : {
           "type" : "post",
           "text" : "GitHub language trends and the fragmenting landscape",
           "uri"  : "http://kiss.ly/1mpauCD",
           "uri_type" : "post"
       },
-      "receivedAt" : new Date(),
-      "createdAt" : new Date(),
+      "receivedAt" : "Dec 28 2015 12:23:00",
+      "createdAt" : "Dec 28 2015 13:00:00",
       "source" : {
           "user" : "hnshah",
-          "createdAt" : new Date("May 3 2014 16:00:00"),
+          "createdAt" : "May 3 2014 16:00:00",
           "type" : "twitter.com",
           "uri" : "https://twitter.com/hnshah/status/462728347232256001"
       }
@@ -44,13 +45,13 @@
           "uri" : "https://instagram.com/p/zrLkyDL7Ho/",
           "uri_type" : "instagram"
       },
-      "receivedAt" : new Date(),
-      "createdAt" : new Date(),
+      "receivedAt" : "Dec 28 2015 12:23:00",
+      "createdAt" : "Dec 28 2015 13:00:00",
       "source" : {
           "user" : "tinaferan",
-          "createdAt" : new Date("Feb 28 2015 16:00:00"),
+          "createdAt" : "Feb 28 2015 16:00:00",
           "type" : "twitter.com",
-          "uri" : "https://twitter.com/tinaferan/status/571916934087897088",
+          "uri" : "https://twitter.com/tinaferan/status/571916934087897088"
       }
     }
   ]

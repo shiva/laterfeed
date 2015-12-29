@@ -1,0 +1,16 @@
+<body>
+  <h1>Welcome to Laterfeed!</h1>
+  <h2>Events</h2>
+  <div id="events">
+  {{#each events}}
+    {{ >event }}
+  {{/each}}
+  </div>
+
+  <h2>Items</h2>
+  <div id="items">
+  {{#each items}}
+    {{ >item }}
+  {{/each}}
+  </div>
+</body>
