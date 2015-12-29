@@ -40,5 +40,19 @@ if (Meteor.isClient) {
 if (Meteor.isServer) {
   Meteor.startup(function () {
     // code to run on server at startup
+    // load data if none is found
+    if (Events.find().count === 0) {
+      JSON.parse(Assets.getText("events.json")).events.forEach(function(doc) {
+        console.log("Inserting event: " + doc.content);
+        Events.insert(doc);
+      });
+    }
+
+    if (Items.find().count === 0) {
+      JSON.parse(Assets.getText("items.json")).items.forEach(function(doc) {
+        console.log("Inserting event: " + doc.comment);
+        Items.insert(doc);
+      });
+    }
   });
 }
